@@ -221,11 +221,25 @@ footer nav a {
     width: 50%;
     border-bottom: 1px dashed black;
 }
-.grid {
+.grid1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
     width: 100%;
+}
+.grid1 .image{
+    
+}
+.grid2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+    
+}
+.boxes p {
+    padding: 200px;
+    width: 120%
 }
 button {
     border-radius: 5px;
