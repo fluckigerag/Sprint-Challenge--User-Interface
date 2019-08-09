@@ -218,11 +218,29 @@ footer nav a {
 .boxes {
     margin: 10px;
     padding: 20px;
+    width: 50%;
+    border-bottom: 1px dashed black;
 }
 .grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 0%;
+    width: 100%;
+}
+button {
+    border-radius: 5px;
+    background: white;
+    border: 2px solid black;
+    padding: 5px;
+    width: 100px;
+    margin: 10px;
+}
+.workTogether {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.workTogether p{
+    padding-top: 20px;
 }
 
