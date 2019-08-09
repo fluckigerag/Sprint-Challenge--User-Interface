@@ -201,7 +201,26 @@ footer nav a {
 }
 
 .headerImage {
-    margin-left: 300px;
+    margin-left: 280px;
+    padding: 20px;
 }
 
+.about {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    text-align: justify;
+}
+.about p {
+    padding-bottom: 10px;
+}
 
+.grid {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxes {
+    
+    
+}
