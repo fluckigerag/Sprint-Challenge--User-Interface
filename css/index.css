@@ -62,24 +62,27 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.header {
+    width: 100%;
+}
 .navigation{
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 50px;
-	margin-top: 40px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-left: 280px;
 }
 nav a{
+    padding: 20px;
 	text-decoration: none;
-	color: black;
+    color: black;
 }
-a{
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: auto;
-}
-.logo{
-	padding-left: 5px;
-	margin: auto;
+
+.topImage {
+    padding: 40px;
+    margin: auto;
+    margin-left: 272px;
 }
 
 p {
@@ -132,6 +135,38 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -156,7 +191,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 10px 2%;
     font-size: 14px;
 }
 
